@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid azure;
+}
+#nav>a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: azure;
+    font-style: italic;
+}
+#Myform{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Myform>form{
+    height: 200px;
+    width: 300px;
+    background-color: azure;
+}
+td{
+    padding: 10px;
+    padding-left: 15px;
+}
+#btn>td{
+    text-align: center;
+}
+#profile{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: azure;
+    align-items: center;
+}
